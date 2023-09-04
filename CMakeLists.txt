@@ -3,4 +3,14 @@ project(leetForCpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(leetForCpp main.cpp)
+#boost库
+set(BOOST_ROOT "/opt/homebrew/Cellar/boost/1.81.0_1/include/boost")
+include_directories(/opt/homebrew/Cellar/boost/1.81.0_1/include)
+link_directories(/opt/homebrew/Cellar/boost/1.81.0_1/lib)
+
+#pcre++库
+set(PCRE "/opt/homebrew/Cellar/pcre/8.45/include/*")
+include_directories(/opt/homebrew/Cellar/pcre/8.45/include)
+link_directories(/opt/homebrew/Cellar/pcre/8.45/lib)
+
+add_executable(leetForCpp main.cpp lee/leetcode/editor/cn/[26]删除有序数组中的重复项.cpp lee/leetcode/editor/cn/[1]两数之和.cpp)
