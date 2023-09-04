@@ -13,4 +13,4 @@ set(PCRE "/opt/homebrew/Cellar/pcre/8.45/include/*")
 include_directories(/opt/homebrew/Cellar/pcre/8.45/include)
 link_directories(/opt/homebrew/Cellar/pcre/8.45/lib)
 
-add_executable(leetForCpp main.cpp lee/leetcode/editor/cn/[26]删除有序数组中的重复项.cpp lee/leetcode/editor/cn/[1]两数之和.cpp)
+add_executable(leetForCpp main.cpp)
