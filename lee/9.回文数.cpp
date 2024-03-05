@@ -14,18 +14,13 @@ public:
         if (x < 0)
             return false;
         
-        char buffer[20];
-        sprintf(buffer,"%d",x);
-
-        char* charpoint = buffer;
-        int length = strlen(charpoint);
-        for (int i = 0; i < length / 2; i++)
+        std::string xstr = std::to_string(x);
+        for (int i = 0; i < xstr.length() / 2; i++)
         {
-            if (charpoint[i] != charpoint[length - i - 1])
+            if (xstr[i] != xstr[xstr.length() - i - 1])
             {
                 return false;
             }
-            
         }
         return true;
     }
