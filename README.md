@@ -1,7 +1,6 @@
 # leetForCpp
 
 ## CMakeLists.txt
-由于每次添加文件，cmakelists都要变化，合并时会冲突。所以在此单独记录
 ```c++
 cmake_minimum_required(VERSION 3.25)
 project(leetForCpp)
