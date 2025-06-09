@@ -32,4 +32,4 @@ cpp-[分类]-[关键词].md
 ### ➡️ 相关笔记汇总请见 [notes](notes/)
 
 - [二分查找算法](notes/algo/cpp-algo-BinarySearch.md)
-- [CMake 常用构建技巧](notes/build/cpp-build-CmakeTips.md)
+- [CMake 常用构建技巧](notes/cmake/cpp-cmake-CmakeTips.md)
