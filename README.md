@@ -32,4 +32,8 @@ cpp-[分类]-[关键词].md
 ### ➡️ 相关笔记汇总请见 [notes](notes/)
 
 - [二分查找算法](notes/algo/cpp-algo-BinarySearch.md)
-- [CMake 常用构建技巧](notes/cmake/cpp-cmake-CmakeTips.md)
+- [CMake常用构建技巧](notes/cmake/cpp-cmake-CmakeTips.md)
+- [Makefile 使用技巧](notes/linux/cpp-linux-MakefileUsage.md)
+- [进程基本概念](notes/linux/cpp-linux-ProcessBasics.md)
+- [GDB 调试基础](notes/linux/cpp-linux-GdbUsage.md)
+- [静态库与动态库构建](notes/linux/cpp-linux-StaticDynamicLib.md)
