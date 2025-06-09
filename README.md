@@ -26,7 +26,7 @@ cpp-[分类]-[关键词].md
 
 说明：
 
-- `[分类]`：使用小写英文，反映技术领域，如 `stl`、`algo`、`build`
+- `[分类]`：使用小写英文，反映技术领域，如 `stl`、`algo`、`cmake`
 - `[关键词]`：使用驼峰风格拼写重点内容，如 `VectorErase`、`BinarySearch`
 
 ### ➡️ 相关笔记汇总请见 [notes](notes/)
