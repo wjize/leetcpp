@@ -38,7 +38,7 @@ EOF
   echo "Initialization completed."
 }
 
-function make() {
+function build() {
     if [ ! -d "build" ]; then
         init
     fi
@@ -68,14 +68,14 @@ function main() {
         "init")
             init
             ;;
-        "make")
-            make
+        "build")
+            build
             ;;
         "clean")
             clean
             ;;
         *)
-            echo "Invalid parameter: $TYPE, Usage: ./project.sh [init|make|clean]"
+            echo "Invalid parameter: $TYPE, Usage: ./project.sh [init|build|clean]"
             ;;
     esac
 }
