@@ -4,7 +4,7 @@ project(leetForCpp)
 set(CMAKE_CXX_STANDARD 11)
 
 # Boost 库
-set(BOOST_HOME "/opt/homebrew/Cellar/boost/1.81.0_1")
+set(BOOST_HOME "/opt/homebrew/Cellar/boost/1.88.0")
 include_directories(${BOOST_HOME}/include)
 link_directories(${BOOST_HOME}/lib)
 
@@ -14,3 +14,6 @@ include_directories(${PCRE_HOME}/include)
 link_directories(${PCRE_HOME}/lib)
 
 add_executable(leetForCpp test/main.cpp)
+
+# 添加安装目标
+install(TARGETS leetForCpp DESTINATION bin)
