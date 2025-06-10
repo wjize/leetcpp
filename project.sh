@@ -71,11 +71,15 @@ function main() {
         "build")
             build
             ;;
+        "rebuild")
+            clean
+            build
+            ;;
         "clean")
             clean
             ;;
         *)
-            echo "Invalid parameter: $TYPE, Usage: ./project.sh [init|build|clean]"
+            echo "Invalid parameter: $TYPE, Usage: ./project.sh [init|build|rebuild|clean]"
             ;;
     esac
 }
